@@ -10,5 +10,5 @@ terraform {
 
 provider "aws" {
   profile = "default" // optional, default user is set by default
-  region = "eu-central-1"
+  region = var.aws_region
 }

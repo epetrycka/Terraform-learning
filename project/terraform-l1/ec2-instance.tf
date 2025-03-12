@@ -1,5 +1,5 @@
 # Terraform Settings Block
-#VPS -> create default
+#VPC -> create default
 terraform {
   required_providers {
     aws = {
